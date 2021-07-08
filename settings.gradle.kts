@@ -1,3 +1,3 @@
 
-rootProject.name = "KotlinTraing"
+rootProject.name = "NyetHack"
 
