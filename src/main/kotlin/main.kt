@@ -1,7 +1,20 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import nyetHack.Game
+import sandbox.SimVillage
+import typeIntro.TypeIntro
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main(args: Array<String>) {
+    //typeIntro()
+    //nyetHack()
+    val simVillage = SimVillage()
+    simVillage.printlnFun()
+}
+
+fun typeIntro() {
+    val typeIntro = TypeIntro()
+    typeIntro.variables()
+}
+
+fun nyetHack() {
+    val game = Game()
+    game.nyetHack()
 }
