@@ -78,6 +78,15 @@ class Game {
 
         println("$name $healthStatus")
         castFireball(5)
+
+        var beverage = readLine()
+        if (beverage != null){
+            beverage = beverage.capitalize()
+        }else{
+            println()
+        }
+//        beverage = null
+        println(beverage)
     }
 
     private fun formatHealthStatus(healthPoints: Int, isBlessed: Boolean) = when (healthPoints) {
