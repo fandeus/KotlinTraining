@@ -10,8 +10,7 @@ fun main(args: Array<String>) {
     //sandbox()
     //swordJuggler()
     tavern()
-    println("Hello Kotlin java v1")
-    println("Hello Kotlin java v2")
+    println("Hello Kotlin v1")
 }
 
 fun typeIntro() {
