@@ -12,6 +12,7 @@ fun main(args: Array<String>) {
     tavern()
     println("Hello Kotlin v1")
     println("Hello Kotlin v2")
+    println("Hello Kotlin v3")
 }
 
 fun typeIntro() {
