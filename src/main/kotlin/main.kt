@@ -11,6 +11,7 @@ fun main(args: Array<String>) {
     //swordJuggler()
     tavern()
     println("Hello Kotlin v1")
+    println("Hello Kotlin v2")
 }
 
 fun typeIntro() {
